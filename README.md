@@ -6,7 +6,7 @@ Functions act in-place.
 Easy usage, drawing a sphere in a confocal stack with xy resolution = .25 µm and z steps = 1 µm:
 ``` 
 stack = np.zeros((50, 100, 100)) # z, x, y
-d = 7 # µm
+d = 4 # µm
 x, y, z = 40, 40, 32
 sphere(stack, [x,y,z], d, [.25, .25, 1])
 ```
