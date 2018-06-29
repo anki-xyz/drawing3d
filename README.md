@@ -9,6 +9,7 @@ from drawing3d import sphere
 
 stack = np.zeros((50, 100, 100)) # z, x, y
 d = 4 # µm
+xyz_spacings = [.25, .25, 1] # µm 
 x, y, z = 40, 40, 32
-sphere(stack, [x,y,z], d, [.25, .25, 1])
+sphere(stack, [x,y,z], d, xyz_spacings)
 ```
