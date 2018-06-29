@@ -1,4 +1,4 @@
-# 3d-drawing
+# drawing3d
 
 This repo offers 3D drawing features for numpy 3D __volume__ stacks (e.g. confocal stacks).
 Functions act in-place.
